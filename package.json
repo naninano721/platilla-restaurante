@@ -1,0 +1,32 @@
+{
+  "name": "05-webpack-inicial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --open --port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.5.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
